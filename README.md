@@ -84,5 +84,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Official Website
-👉 [sonicaurastudio.com](https://sonicaurastudio.com)
+👉 [sonicaurastudio.com](https://www.sonicaurastudio.com)
 
