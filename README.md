@@ -52,3 +52,7 @@ http://localhost:3000/tools/pitch-range
  
 > You can start editing the page by modifying files inside `src/app/tools/`. The page auto-updates as you edit.
 > This project uses Next.js Font Optimization to automatically load custom fonts.
+
+
+## Official Website
+https://www.sonicaurastudio.com
