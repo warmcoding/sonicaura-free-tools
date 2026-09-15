@@ -2,11 +2,7 @@
 
 import React, { useState } from 'react';
 import * as Tone from 'tone';
-import GlobalHeader from '@/components/Header';
-import StudioCTA from '@/components/StudioCTA';
-import Comment from '@/components/Comment';
-import ToolGuide from '@/components/ToolGuide';
-import { PIANO_GUIDE } from '@/lib/tool-content';
+
 
 // Defines the piano key data: the full multi-octave run from B2 to B7
 const generatePianoKeys = () => {
@@ -67,7 +63,7 @@ export default function PianoClient() {
             >
                 Skip to main content
             </a>
-            <GlobalHeader type="tool" />
+
             <div className="max-w-5xl mx-auto flex flex-col items-center">
                 <h1
                     id="main-content"
@@ -137,14 +133,7 @@ export default function PianoClient() {
                     </div>
                 </div>
 
-                {/* How-to steps + FAQ: the copy and the HowTo / FAQPage structured data share one source */}
-                <ToolGuide content={PIANO_GUIDE} />
 
-                {/* Feedback form */}
-                <Comment />
-
-                {/* Bottom-of-page cross-sell */}
-                <StudioCTA />
             </div>
         </main>
     );

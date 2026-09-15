@@ -2,11 +2,7 @@
 
 import React, { useState } from 'react';
 import * as Tone from 'tone';
-import GlobalHeader from '@/components/Header';
-import StudioCTA from '@/components/StudioCTA';
-import Comment from '@/components/Comment';
-import ToolGuide from '@/components/ToolGuide';
-import { EAR_TRAINING_GUIDE } from '@/lib/tool-content';
+
 
 export default function EarTrainingClient() {
     const [gameState, setGameState] = useState<'idle' | 'playing' | 'answered'>('idle');
@@ -68,7 +64,7 @@ export default function EarTrainingClient() {
             >
                 Skip to main content
             </a>
-            <GlobalHeader type="tool" />
+
             <div className="max-w-4xl mx-auto flex flex-col items-center">
                 <h1
                     id="main-content"
@@ -137,14 +133,7 @@ export default function EarTrainingClient() {
                     </div>
                 </div>
 
-                {/* How-to steps + FAQ: the copy and the HowTo / FAQPage structured data share one source */}
-                <ToolGuide content={EAR_TRAINING_GUIDE} />
 
-                {/* Feedback form */}
-                <Comment />
-
-                {/* Bottom-of-page cross-sell */}
-                <StudioCTA />
             </div>
         </main>
     );
