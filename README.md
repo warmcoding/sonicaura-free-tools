@@ -1,6 +1,11 @@
 # Sonicaura‑Free‑Tools
 
-Open‑source collection of free browser‑native audio tools from **Sonicaura Studio**.
+Open-source collection of free browser-native audio utilities from **Sonicaura Studio**.
+A set of Web Audio tools built with Next.js, Tailwind CSS, Web Audio API and WebAssembly.
+Includes pitch detection, metronome, virtual piano, ear training, vocal range test and media converter.
+
+All audio processing runs locally in your browser.
+
 All tools run largely inside your browser, built with Next.js, Tailwind CSS and WebAssembly.
 
 > ⚠️ Note: This repository provides frontend source code for demo purposes.
@@ -55,4 +60,4 @@ http://localhost:3000/tools/pitch-range
 
 
 ## Official Website
-https://www.sonicaurastudio.com
+🔗 https://www.sonicaurastudio.com
