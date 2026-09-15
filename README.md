@@ -60,4 +60,4 @@ http://localhost:3000/tools/pitch-range
 
 
 ## Official Website
-🔗 https://www.sonicaurastudio.com
+[🔗 https://www.sonicaurastudio.com](https://www.sonicaurastudio.com)
