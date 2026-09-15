@@ -44,9 +44,9 @@ npm install tone
 
 # step3: run dev server
 npm run dev
+```
 
-
-Visit： to preview the tool locally.
+Visit：to preview the tool locally.
 http://localhost:3000/tools/vocal-pitch-test
 http://localhost:3000/tools/convert 
 http://localhost:3000/tools/metronome 
