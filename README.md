@@ -39,3 +39,16 @@ npm install tone
 
 # step3: run dev server
 npm run dev
+
+
+Visit： to preview the tool locally.
+http://localhost:3000/tools/vocal-pitch-test
+http://localhost:3000/tools/convert 
+http://localhost:3000/tools/metronome 
+http://localhost:3000/tools/piano 
+http://localhost:3000/tools/ear-training
+http://localhost:3000/tools/pitch-range 
+
+ 
+> You can start editing the page by modifying files inside `src/app/tools/`. The page auto-updates as you edit.
+> This project uses Next.js Font Optimization to automatically load custom fonts.
